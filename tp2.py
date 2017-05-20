@@ -48,7 +48,5 @@ while a[i2-1][j2-1] == 0:
 
     k+=1
 
-for i in a:
-    print i
 with open("output.txt", "w") as f:
     f.write('%d' % a[i2-1][j2-1])
